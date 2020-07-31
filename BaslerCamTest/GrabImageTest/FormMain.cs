@@ -21,8 +21,10 @@ namespace GrabImageTest
         private void buttonGrabImage_Click(object sender, EventArgs e)
         {
             MyGrab myGrab = new MyGrab();
-            myGrab.Run();
-            picBoxGrabbedImage.Image = myGrab.myImage;
+            string path = Application.StartupPath;
+            myGrab.GrabImage(path);
+            //picBoxGrabbedImage.Image = myGrab.myImage;
+            picBoxGrabbedImage.Image = myGrab.myBitmap;
         }
     }
 }
