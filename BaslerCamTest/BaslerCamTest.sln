@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaslerCamTest", "BaslerCamT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabImageTest", "GrabImageTest\GrabImageTest.csproj", "{7A167679-4BCF-443D-BC55-7A60223DA4FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabOpenCVTest", "GrabOpenCVTest\GrabOpenCVTest.csproj", "{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGrab", "MyGrab\MyGrab.csproj", "{D20144CA-B81F-47D5-82D3-15980BA09634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,22 @@ Global
 		{7A167679-4BCF-443D-BC55-7A60223DA4FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A167679-4BCF-443D-BC55-7A60223DA4FE}.Release|x64.ActiveCfg = Release|x64
 		{7A167679-4BCF-443D-BC55-7A60223DA4FE}.Release|x64.Build.0 = Release|x64
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5AAA7BA-B12E-4EA5-8AED-0C2CB5A9CB56}.Release|x64.Build.0 = Release|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Debug|x64.Build.0 = Debug|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Release|x64.ActiveCfg = Release|Any CPU
+		{D20144CA-B81F-47D5-82D3-15980BA09634}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
-﻿namespace GrabImageTest
+﻿namespace GrabOpenCVTest
 {
-    partial class FormMain
+    partial class FrmMain
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -30,12 +30,15 @@
         {
             this.buttonGrabImage = new System.Windows.Forms.Button();
             this.picBoxGrabbedImage = new System.Windows.Forms.PictureBox();
+            this.picBoxCvBw = new System.Windows.Forms.PictureBox();
+            this.buttonBW = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxGrabbedImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCvBw)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonGrabImage
             // 
-            this.buttonGrabImage.Location = new System.Drawing.Point(12, 24);
+            this.buttonGrabImage.Location = new System.Drawing.Point(12, 12);
             this.buttonGrabImage.Name = "buttonGrabImage";
             this.buttonGrabImage.Size = new System.Drawing.Size(75, 23);
             this.buttonGrabImage.TabIndex = 0;
@@ -46,23 +49,46 @@
             // picBoxGrabbedImage
             // 
             this.picBoxGrabbedImage.BackColor = System.Drawing.Color.White;
-            this.picBoxGrabbedImage.Location = new System.Drawing.Point(12, 53);
+            this.picBoxGrabbedImage.Location = new System.Drawing.Point(12, 41);
             this.picBoxGrabbedImage.Name = "picBoxGrabbedImage";
-            this.picBoxGrabbedImage.Size = new System.Drawing.Size(472, 354);
+            this.picBoxGrabbedImage.Size = new System.Drawing.Size(236, 239);
             this.picBoxGrabbedImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxGrabbedImage.TabIndex = 1;
             this.picBoxGrabbedImage.TabStop = false;
             // 
-            // FormMain
+            // picBoxCvBw
+            // 
+            this.picBoxCvBw.BackColor = System.Drawing.Color.White;
+            this.picBoxCvBw.Location = new System.Drawing.Point(254, 41);
+            this.picBoxCvBw.Name = "picBoxCvBw";
+            this.picBoxCvBw.Size = new System.Drawing.Size(236, 239);
+            this.picBoxCvBw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxCvBw.TabIndex = 2;
+            this.picBoxCvBw.TabStop = false;
+            // 
+            // buttonBW
+            // 
+            this.buttonBW.Location = new System.Drawing.Point(254, 12);
+            this.buttonBW.Name = "buttonBW";
+            this.buttonBW.Size = new System.Drawing.Size(75, 23);
+            this.buttonBW.TabIndex = 3;
+            this.buttonBW.Text = "흑백화";
+            this.buttonBW.UseVisualStyleBackColor = true;
+            this.buttonBW.Click += new System.EventHandler(this.buttonBW_Click);
+            // 
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 419);
+            this.ClientSize = new System.Drawing.Size(798, 654);
+            this.Controls.Add(this.buttonBW);
+            this.Controls.Add(this.picBoxCvBw);
             this.Controls.Add(this.picBoxGrabbedImage);
             this.Controls.Add(this.buttonGrabImage);
-            this.Name = "FormMain";
-            this.Text = "GrabImage";
+            this.Name = "FrmMain";
+            this.Text = "OpenCV_ImgProcessingTest";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxGrabbedImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCvBw)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -71,6 +97,8 @@
 
         private System.Windows.Forms.Button buttonGrabImage;
         private System.Windows.Forms.PictureBox picBoxGrabbedImage;
+        private System.Windows.Forms.PictureBox picBoxCvBw;
+        private System.Windows.Forms.Button buttonBW;
     }
 }
 
